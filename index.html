@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wither Craft</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color:white;
+    position:relative;
+    overflow:hidden;
+}
+
+.card{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    padding:40px;
+    width:400px;
+    border-radius:20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+h1{
+    font-size:42px;
+    letter-spacing:3px;
+    margin-bottom:25px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info{
+    margin:15px 0;
+    padding:12px;
+    border-radius:12px;
+    background: rgba(255,255,255,0.08);
+    font-size:18px;
+    word-break: break-word;
+}
+
+.label{
+    display:block;
+    font-size:14px;
+    opacity:0.7;
+    margin-bottom:5px;
+}
+
+footer{
+    position:absolute;
+    bottom:8px;   /* نزلناه أكثر */
+    width:100%;
+    text-align:center;
+    font-size:13px;
+    opacity:0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>WITHER CRAFT</h1>
+
+    <div class="info">
+        <span class="label">Server Name</span>
+        WITHER CRAFT
+    </div>
+
+    <div class="info">
+        <span class="label">IP Address</span>
+        vocalist-mas.gl.joinmc.link
+    </div>
+
+    <div class="info">
+        <span class="label">Port</span>
+        19132
+    </div>
+</div>
+
+<footer>
+    © 2026 Wither Craft - All Rights Reserved
+</footer>
+
+</body>
+</html>
